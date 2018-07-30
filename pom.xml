@@ -8,21 +8,22 @@
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-compiler-plugin</artifactId>
-			<version>2.3.2</version>
-			<configuration>
-				<source>1.7</source>
-				<target>1.7</target>
-			</configuration>
+		 <version>3.5.1</version>
+       <configuration>
+         <source>1.8</source>
+         <target>1.8</target>
+       </configuration>            
 		</plugin>
 		      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.22.0</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
+         <inherited>true</inherited>
+         <configuration>
+         <suiteXmlFiles>
+         <suitexmlefile>testng.xml</suitexmlefile>
+         </suiteXmlFiles>
+         </configuration>
       </plugin>
 		
 		
@@ -32,7 +33,7 @@
 		    <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
-      <version>6.9.8</version>
+      <version>6.14.3</version>
       <scope>test</scope>
     </dependency>
     
@@ -42,5 +43,11 @@
     <version>1.0-20081010.060147</version>
 </dependency>
 	</dependencies>
-	  
+	   <properties>
+
+   <maven.compiler.source>1.8</maven.compiler.source>
+
+   <maven.compiler.target>1.8</maven.compiler.target>
+
+ </properties>
 </project>
