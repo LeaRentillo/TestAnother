@@ -10,10 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
+
 public class NewTest {
 	private ChromeDriver driver;
 	public static final String USERNAME = "G00003@100002.com";
-	public static final String USERNAME1 = "G00003@100002.com";
+	public static final String USERNAME1 = "G00003@100002.com2";
 	public static final String ACCESS_KEY = "nQr6n6Td!9";
 
 	@Test
