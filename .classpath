@@ -32,6 +32,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
 	<classpathentry kind="lib" path="C:/Users/Dell/Documents/LEA/SELENIUM/selenium-java-3.13.0/client-combined-3.13.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Dell/Documents/LEA/SELENIUM/selenium-java-3.13.0/client-combined-3.13.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Dell/Documents/LEA/SELENIUM/selenium-java-3.13.0/libs/byte-buddy-1.8.3.jar"/>
