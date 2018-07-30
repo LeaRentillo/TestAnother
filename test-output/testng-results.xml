@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14014" started-at="2018-07-30T09:10:45Z" finished-at="2018-07-30T09:10:59Z">
+  <suite name="Default suite" duration-ms="18056" started-at="2018-07-30T09:37:16Z" finished-at="2018-07-30T09:37:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14014" started-at="2018-07-30T09:10:45Z" finished-at="2018-07-30T09:10:59Z">
+    <test name="Default test" duration-ms="18056" started-at="2018-07-30T09:37:16Z" finished-at="2018-07-30T09:37:34Z">
       <class name="System.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:System.NewTest@42e26948]" name="beforeTest" is-config="true" duration-ms="8" started-at="2018-07-30T09:10:45Z" finished-at="2018-07-30T09:10:45Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:System.NewTest@5c3bd550]" name="beforeTest" is-config="true" duration-ms="8" started-at="2018-07-30T09:37:16Z" finished-at="2018-07-30T09:37:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="anotherTestMethod()[pri:0, instance:System.NewTest@42e26948]" name="anotherTestMethod" duration-ms="4" started-at="2018-07-30T09:10:45Z" finished-at="2018-07-30T09:10:45Z">
+        <test-method status="PASS" signature="anotherTestMethod()[pri:0, instance:System.NewTest@5c3bd550]" name="anotherTestMethod" duration-ms="4" started-at="2018-07-30T09:37:16Z" finished-at="2018-07-30T09:37:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- anotherTestMethod -->
-        <test-method status="FAIL" signature="f()[pri:1, instance:System.NewTest@42e26948]" name="f" duration-ms="13345" started-at="2018-07-30T09:10:45Z" finished-at="2018-07-30T09:10:58Z">
+        <test-method status="FAIL" signature="f()[pri:1, instance:System.NewTest@5c3bd550]" name="f" duration-ms="17354" started-at="2018-07-30T09:37:16Z" finished-at="2018-07-30T09:37:33Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [G00003@100002.com2] but found [G00003@100002.com]]]>
@@ -60,7 +60,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:System.NewTest@42e26948]" name="afterTest" is-config="true" duration-ms="639" started-at="2018-07-30T09:10:58Z" finished-at="2018-07-30T09:10:59Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:System.NewTest@5c3bd550]" name="afterTest" is-config="true" duration-ms="673" started-at="2018-07-30T09:37:33Z" finished-at="2018-07-30T09:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
