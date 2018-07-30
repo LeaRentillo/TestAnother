@@ -46,6 +46,11 @@ public class NewTest {
 		Assert.assertEquals(assertElementValue, USERNAME1);
 		// Conclude a test
 	}
+	
+	@Test
+	public void anotherTestMethod() {
+		System.out.println("asdasd");
+	}
 
 	@BeforeTest
 	public void beforeTest() {
