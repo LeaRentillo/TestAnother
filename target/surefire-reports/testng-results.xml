@@ -1,11 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2" started-at="2018-07-31T01:12:30Z" finished-at="2018-07-31T01:12:30Z">
+  <suite name="Suite" duration-ms="12684" started-at="2018-07-31T01:26:54Z" finished-at="2018-07-31T01:27:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2" started-at="2018-07-31T01:12:30Z" finished-at="2018-07-31T01:12:30Z">
+    <test name="Test" duration-ms="12684" started-at="2018-07-31T01:26:54Z" finished-at="2018-07-31T01:27:07Z">
+      <class name="System.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:System.NewTest@180bc464]" name="beforeTest" is-config="true" duration-ms="8" started-at="2018-07-31T01:26:54Z" finished-at="2018-07-31T01:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="anotherTestMethod()[pri:0, instance:System.NewTest@180bc464]" name="anotherTestMethod" duration-ms="1" started-at="2018-07-31T01:26:54Z" finished-at="2018-07-31T01:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherTestMethod -->
+        <test-method status="FAIL" signature="f()[pri:1, instance:System.NewTest@180bc464]" name="f" duration-ms="12006" started-at="2018-07-31T01:26:54Z" finished-at="2018-07-31T01:27:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [G00003@100002.com2] but found [G00003@100002.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [G00003@100002.com2] but found [G00003@100002.com]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at System.NewTest.f(NewTest.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:System.NewTest@180bc464]" name="afterTest" is-config="true" duration-ms="652" started-at="2018-07-31T01:27:06Z" finished-at="2018-07-31T01:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- System.NewTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
